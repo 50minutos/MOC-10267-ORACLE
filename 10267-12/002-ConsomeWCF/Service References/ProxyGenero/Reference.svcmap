@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="cad3581c-a8c9-47d3-b5e4-af4521593435" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:45989/GeneroService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="GeneroService.xsd" MetadataType="Schema" ID="32c67026-3d4a-45a4-bb88-52c2240e05ba" SourceId="1" SourceUrl="http://localhost:45989/GeneroService.svc?xsd=xsd3" />
+    <MetadataFile FileName="GeneroService1.xsd" MetadataType="Schema" ID="cc235fc6-eafa-4087-95b7-989381c67ee2" SourceId="1" SourceUrl="http://localhost:45989/GeneroService.svc?xsd=xsd2" />
+    <MetadataFile FileName="GeneroService2.xsd" MetadataType="Schema" ID="06c6755e-70a3-4f47-a5e8-dc142c635bc4" SourceId="1" SourceUrl="http://localhost:45989/GeneroService.svc?xsd=xsd1" />
+    <MetadataFile FileName="GeneroService3.xsd" MetadataType="Schema" ID="0880f6ea-2ccd-4f98-9f9b-bc3f6c891a48" SourceId="1" SourceUrl="http://localhost:45989/GeneroService.svc?xsd=xsd0" />
+    <MetadataFile FileName="GeneroService.disco" MetadataType="Disco" ID="0020599d-3e6a-4a49-8396-3446989d7463" SourceId="1" SourceUrl="http://localhost:45989/GeneroService.svc?disco" />
+    <MetadataFile FileName="GeneroService4.xsd" MetadataType="Schema" ID="40edaefc-901f-49b2-bd50-51001e852525" SourceId="1" SourceUrl="http://localhost:45989/GeneroService.svc?xsd=xsd4" />
+    <MetadataFile FileName="GeneroService.wsdl" MetadataType="Wsdl" ID="1c6d3d4d-e5c6-4fb4-be24-f14e5f00a3de" SourceId="1" SourceUrl="http://localhost:45989/GeneroService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Modelo.master.cs" Inherits="_001_Login.Modelo" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="header">
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Default.aspx">Página principal</asp:HyperLink>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Autenticados/Default.aspx">Página para usuários autenticados</asp:HyperLink>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/SomenteDiretoria/Default.aspx">Página para diretores</asp:HyperLink>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:LoginStatus ID="LoginStatus1" runat="server" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/EsqueciMinhaSenha.aspx">Esqueci minha senha</asp:HyperLink>
+        <asp:LoginView ID="LoginView1" runat="server">
+            <LoggedInTemplate>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Autenticados/AlterarMinhaSenha.aspx">Alterar minha senha</asp:HyperLink>
+            </LoggedInTemplate>
+        </asp:LoginView>
+    </div>
+    <div id="content">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id="footer">
+        by Agnaldo &middot; 50minutos &copy; 2012
+    </div>
+    </form>
+</body>
+</html>

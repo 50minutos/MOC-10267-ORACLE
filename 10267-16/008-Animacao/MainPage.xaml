@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="_008_Animacao.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+    <StackPanel>
+        <StackPanel.Resources>
+            <Storyboard x:Name="storyboard">
+                <DoubleAnimation
+             Storyboard.TargetName="EfeitoBorrado"
+             Storyboard.TargetProperty="Radius"
+             From="0" To="40" Duration="0:0:0.3"
+             AutoReverse="True" />
+            </Storyboard>
+        </StackPanel.Resources>
+        <Button Content="Clique aqui" Click="ButtonClick" Width="200"
+            Margin="50">
+            <Button.Effect>
+                <BlurEffect x:Name="EfeitoBorrado" Radius="0" />
+            </Button.Effect>
+        </Button>
+    </StackPanel>
+</UserControl>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/_006_WCF" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/_006_WCF" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:22120/Service.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" />
+  <xs:complexType name="ArrayOfGenero">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Genero" nillable="true" type="tns:Genero" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGenero" nillable="true" type="tns:ArrayOfGenero" />
+  <xs:complexType name="Genero">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q1:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Id" type="xs:decimal" />
+          <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Genero" nillable="true" type="tns:Genero" />
+</xs:schema>

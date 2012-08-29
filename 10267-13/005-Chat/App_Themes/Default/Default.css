@@ -1,0 +1,78 @@
+﻿*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    font-family: Verdana;
+    font-size: 90%;
+}
+
+#header
+{
+    width: 950px;
+    height: 175px;
+    background-image: url(../../Images/header.png);
+    background-repeat: no-repeat;
+    margin: 0px auto; /*top+bottom right+left*/
+}
+
+#message
+{
+    /*top right bottom left*/
+    border-style: solid none none none;
+    padding: 10px 10px 4px 10px;
+    width: 930px;
+    background-image: url(../../Images/linha.png);
+    background-repeat: repeat-y;
+    border-top-width: 2px;
+    border-top-color: #ccc;
+    margin: 0px auto;
+}
+
+#message p
+{
+    margin-bottom: 10px;
+}
+
+#message input
+{
+    padding: 5px;
+}
+
+#grid
+{
+    width: 930px;
+    padding: 10px;
+    margin: 0px auto;
+    background-image: url(../../Images/linha.png);
+    background-repeat: repeat-y;
+}
+
+#Mensagens /*tabela (grid)*/
+{
+    width:100%;
+    background-color:#fff;
+}
+
+#Mensagens td /*linha da tabela (grid)*/
+{
+    padding: 0px 10px;
+}
+
+#footer
+{
+    font-size: 90%;
+    text-align: center;
+    width: 950px;
+    height: 40px;
+    padding-top: 10px;
+    background-image: url(../../Images/footer.png);
+    background-repeat: no-repeat;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #ccc;
+    margin: 0px auto;
+}

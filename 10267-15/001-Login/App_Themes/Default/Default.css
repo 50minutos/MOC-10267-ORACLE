@@ -1,0 +1,30 @@
+﻿*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body 
+{
+    background-color: #ccc;
+    color: #333;
+    font-family: Trebuchet MS;
+    font-size: 90%;
+}
+
+#header 
+{
+    height:30px;
+    width:100%;
+}
+
+#content
+{
+    width:100%;
+}
+
+#footer 
+{
+    height:20px;
+    width:100%;
+}

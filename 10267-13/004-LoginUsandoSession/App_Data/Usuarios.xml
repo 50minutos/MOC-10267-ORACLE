@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<usuarios>
+  <usuario id="agnaldo" senha="123"/>
+  <usuario id="adão" senha="456"/>
+  <usuario id="eva" senha="789"/>
+</usuarios>
